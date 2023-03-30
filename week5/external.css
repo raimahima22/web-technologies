@@ -1,0 +1,38 @@
+*{
+    font-size:50px;
+}
+h1{
+    background-color: bisque;
+    color:blue;
+    font-family: 'Quicksand', sans-serif;
+    /*font-size:50px;*/
+}
+#p1{
+    background-color: beige;
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    /*font-size:50px;*/
+}
+#p2{
+    background-color: aliceblue;
+    color:blue;
+    /*font-size:50px;*/
+}
+#p3{
+    background-color: beige;
+    color:blueviolet;
+    /*font-size:50px;*/
+}
+.p4{
+    background-color: antiquewhite;
+    color:brown;
+    /*font-size:50px;*/
+}
+.p4:hover{
+    background-color: bisque;
+    color:blueviolet;
+}
+img[alt]{
+    color:brown;
+}
+ 
