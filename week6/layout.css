@@ -1,0 +1,93 @@
+h1{
+    text-transform: uppercase;
+    color:brown;
+    background-color: beige;
+    font-size: 60px;
+    text-align: center;
+}
+.parent{
+    width:100%;
+}
+img{
+    width:500px;
+    height:auto;
+}
+.son{
+    width:50%;
+    float:left;
+}
+.daughter{
+    width:50%;
+    float:right;
+}
+
+/*mobile device*/
+@media (min-width:320px) and (max-width:480px){
+.parent{
+    display:block;
+}
+h1{
+    color:beige;
+    width:100%;
+    background-color:green ;
+    text-align: center;
+}
+.daughter{
+    width:100%;
+}
+.son{
+    width:100%;
+}
+.daughter img{
+    width:100%;
+    height: auto;
+}
+
+
+}
+
+/*tablet device*/
+@media (min-width:481px) and (max-width:768px){
+.parent{
+    display:block;
+}
+h1{
+    color:pink;
+    width:100%;
+    background-color:red;
+    text-align: center;
+}
+.daughter{
+    width:100%;
+}
+.son{
+    width:100%;
+}
+.daughter img{
+    width:100%;
+    height: auto;
+}
+}
+
+/*laptop device*/
+@media (min-width:769px) and (max-width:1024px){
+    .parent{
+        display:block;
+    }
+    h1{
+        color:purple;
+        width:100%;
+        background-color:plum;
+        text-align: center;
+    }
+    .daughter{
+        width:100%;
+    }
+    .son{
+        width:100%;
+    }
+    .daughter img{
+        width:100%;
+        height: auto;
+    }
+}
