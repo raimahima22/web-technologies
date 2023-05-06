@@ -1,0 +1,96 @@
+*{
+    background-color: darkgreen;
+}
+.parent img{
+    width:50%;
+    height:100%;
+    float:right;
+}
+.son{
+    color:white;
+    font-size: 65px;
+    font-weight:bold;
+    text-align: center;
+    width:50%;
+    height:100%;
+    float:left;
+    padding-top: 50px;
+}
+.daughter{
+    float:right;
+    color:white;
+    font-size: 20px;
+    font-weight:lighter;
+    width:50%;
+    height:50%;
+    padding-top:100px;
+    text-align:left;
+}
+.daughter img{
+    width:200px;
+    float:left;
+}
+  /*mobile device*/
+  @media (min-width:481px) and (max-width:768px){
+    .parent img{
+        width:100%;
+        height:50%;
+        float:right;
+    }
+    .son{
+        color:white;
+        font-size: 50px;
+        font-weight:bold;
+        text-align: left;
+        width:100%;
+        height:10%;
+        float:left;
+        padding-top:10px;
+    }
+    .daughter{
+        float:right;
+        color:white;
+        font-size: 20px;
+        font-weight:lighter;
+        width:100%;
+        height:40%;
+        padding-top:10px;
+        text-align:left;
+    }
+    .daughter img{
+        width:200px;
+        float:left;
+    }
+  }
+  /*laptop device*/
+@media (min-width:769px) and (max-width:1024px){
+    .parent img{
+        width:50%;
+        height:100%;
+        float:right;
+    }
+    .son{
+        color:white;
+        font-size: 65px;
+        font-weight:bold;
+        text-align: center;
+        width:50%;
+        height:100%;
+        float:left;
+        padding-top: 50px;
+    }
+    .daughter{
+        float:right;
+        color:white;
+        font-size: 20px;
+        font-weight:lighter;
+        width:50%;
+        height:50%;
+        padding-top:100px;
+        text-align:left;
+    }
+    .daughter img{
+        width:200px;
+        float:left;
+    }
+}

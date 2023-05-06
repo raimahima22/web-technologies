@@ -1,0 +1,130 @@
+
+*{
+    background-color: beige;
+    margin-left: 10px;
+}
+.parent img{
+    width:45%;
+    margin-top:50px;
+    height:100%;
+    float:right;
+    padding-right: 0px;
+    margin: 0px;
+}
+h1{
+    color:green;
+    font-weight:bold;
+    font-size: 60px;
+    text-align: left;
+}
+h2{
+    color: green;
+    font-weight: lighter;
+    font-weight:15px;
+    font-size:30px;
+}
+.son{
+    width:50%;
+    height:10%;
+    float:left;
+    padding-right: 10px;
+}
+.daughter{
+    color:green;
+    font-size:15px;
+    width:50%;
+    height: auto;
+    float:left;
+    position: relative;
+    margin-top:100px;
+}
+button{
+    border-radius: 300px;
+    background-color:burlywood;
+    color:black;
+}
+/*mobile device*/
+@media (min-width:481px) and (max-width:768px){
+    .parent img{
+        width:45%;
+        height:100%;
+        margin-top:300px;
+        float:right;
+        padding-right: 0px;
+        margin: 0px;
+    }
+    h1{
+        color:green;
+        font-weight:bold;
+        font-size: 60px;
+        text-align: left;
+    }
+    h2{
+        color: green;
+        font-weight: lighter;
+        font-weight:15px;
+        font-size:30px;
+    }
+    .son{
+        width:50%;
+        height:10%;
+        float:left;
+        padding-right: 10px;
+    }
+    .daughter{
+        color:green;
+        font-size:15px;
+        width:50%;
+        height: auto;
+        float:left;
+        position: relative;
+        margin-top:100px;
+    }
+    button{
+        border-radius: 300px;
+        background-color:burlywood;
+        color:black;
+    }
+}
+/*laptop device*/
+@media (min-width:769px) and (max-width:1024px){
+    .parent img{
+        width:45%;
+        height:100%;
+        float:right;
+        padding-right: 0px;
+        margin: 0px;
+    }
+    h1{
+        color:green;
+        font-weight:bold;
+        font-size: 60px;
+        text-align: left;
+    }
+    h2{
+        color: green;
+        font-weight: lighter;
+        font-weight:15px;
+        font-size:30px;
+    }
+    .son{
+        width:50%;
+        height:10%;
+        float:left;
+        padding-right: 10px;
+    }
+    .daughter{
+        color:green;
+        font-size:15px;
+        width:50%;
+        height: auto;
+        float:left;
+        position: relative;
+        margin-top:100px;
+    }
+    button{
+        border-radius: 300px;
+        background-color:burlywood;
+        color:black;
+    }
+}
